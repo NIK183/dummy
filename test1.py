@@ -26,7 +26,7 @@ for filename in os.listdir(json_folder):
                 combined_data.extend(data)
 
 # List of required fields to include in the CSV output
-required_fields = ['source_object', 'field_name', 'source_namespace','pensieve_name']
+required_fields = ['a', 'b', 'c','d']
 
 # Extract all unique keys from the combined data
 all_keys = set()
