@@ -4,11 +4,10 @@ import json
 import csv
 
 
-# Step 1: Determine the script's directory
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
-# Step 2: Construct relative paths to files
-data_file_path = os.path.join(script_directory, 'config')
+
+data_file_path = os.path.join(script_directory, 'dummy/config')
 
 # Path to the folder containing JSON files
 json_folder = data_file_path
@@ -38,7 +37,7 @@ for item in combined_data:
 fields_to_write = [field for field in all_keys if field in required_fields]
 
 # Specify the CSV output file
-csv_file = data_file_path+'/output5.csv'
+csv_file = '/output5.csv'
 
 # Write CSV data
 with open(csv_file, 'w', newline='') as csvfile:
