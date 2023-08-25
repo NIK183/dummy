@@ -37,7 +37,7 @@ for item in combined_data:
 fields_to_write = [field for field in all_keys if field in required_fields]
 
 # Specify the CSV output file
-csv_file = '/output5.csv'
+csv_file = 'output5.csv'
 
 # Write CSV data
 with open(csv_file, 'w', newline='') as csvfile:
