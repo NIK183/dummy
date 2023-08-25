@@ -34,11 +34,11 @@ jobs:
         
     - name: Move output file to repository directory
       run: |
-        mv output6.csv $GITHUB_WORKSPACE/
+        mv output6.csv $GITHUB_WORKSPACE/output/
     - name: Commit Changes
       run: |
           git config --local user.email "jnvsainikhil@gmail.com"
           git config --local user.name "nik183"
-          git add output5.csv  # Replace with your CSV file's name
+          git add output/output6.csv  # Replace with your CSV file's name
           git commit -m "Add generated CSV"
           git push origin main  # Adjust the branch name if needed
