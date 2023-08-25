@@ -35,6 +35,7 @@ jobs:
     - name: Commit Changes
       run: |
           git config --local user.email "jnvsainikhil@gmail.com"
+          git config --local user.name "nik183"
           git add output5.csv  # Replace with your CSV file's name
           git commit -m "Add generated CSV"
           git push origin main  # Adjust the branch name if needed
