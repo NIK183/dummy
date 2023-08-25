@@ -10,7 +10,7 @@ script_directory = os.path.dirname(os.path.abspath(__file__))
 data_file_path = os.path.join(script_directory, 'config')
 
 # Path to the folder containing JSON files
-json_folder = data_file_path
+json_folder = 'config'
 
 # List to store combined JSON data
 combined_data = []
