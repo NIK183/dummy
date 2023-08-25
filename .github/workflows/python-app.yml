@@ -34,7 +34,7 @@ jobs:
         
     - name: Move output file to repository directory
       run: |
-        mv output5.csv $GITHUB_WORKSPACE/
+        mv output6.csv $GITHUB_WORKSPACE/
     - name: Commit Changes
       run: |
           git config --local user.email "jnvsainikhil@gmail.com"
