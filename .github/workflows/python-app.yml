@@ -31,7 +31,10 @@ jobs:
     - name: apprun
       run: |
         python3 test1.py
-
+        
+    - name: Move output file to repository directory
+      run: |
+        mv output5.csv $GITHUB_WORKSPACE/output/output5.csv
     - name: Commit Changes
       run: |
           git config --local user.email "jnvsainikhil@gmail.com"
