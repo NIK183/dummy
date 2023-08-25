@@ -7,7 +7,7 @@ import csv
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
 
-data_file_path = os.path.join(script_directory, 'dummy/config')
+data_file_path = os.path.join(script_directory, 'config')
 
 # Path to the folder containing JSON files
 json_folder = data_file_path
